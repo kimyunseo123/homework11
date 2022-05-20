@@ -62,7 +62,7 @@ int main(void) {
 
 		switch(command) {
 		case 'z': case 'Z': // command 값이 z 또는  일 경우
-			Init_Graph(g);
+			Init_Graph();
 			break;
 		case 'v': case 'V': // command 값이 v 또는 V 일 경우
 			printf("Your Key = ");
